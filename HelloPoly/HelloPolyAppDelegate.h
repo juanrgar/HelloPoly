@@ -10,7 +10,7 @@
 #import "MainWindowController.h"
 #import "PreferencesController.h"
 
-@interface HelloPolyNGAppDelegate : NSObject <NSApplicationDelegate> {
+@interface HelloPolyAppDelegate : NSObject <NSApplicationDelegate> {
 	@private
 	MainWindowController *mainCont;
 	PreferencesController *prefsCont;

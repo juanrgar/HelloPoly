@@ -6,16 +6,16 @@
 //  Copyright 2010 UPM. All rights reserved.
 //
 
-#import "HelloPolyNGAppDelegate.h"
+#import "HelloPolyAppDelegate.h"
 
-@implementation HelloPolyNGAppDelegate
+@implementation HelloPolyAppDelegate
 
 @synthesize mainCont;
 @synthesize prefsCont;
 @synthesize showingSlider;
 
 - (void)dealloc {
-	NSLog(@"HelloPolyNGAppDelegate dealloc");
+	NSLog(@"HelloPolyAppDelegate dealloc");
 	[super dealloc];
 }
 
@@ -27,7 +27,7 @@
 }
 
 - (void)applicationWillTerminate:(NSNotification *)notification {
-	NSLog(@"HelloPolyNGAppDelegate applicationWillTerminate:");
+	NSLog(@"HelloPolyAppDelegate applicationWillTerminate:");
 	NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
 	[mainCont saveState:defaults];
 	[mainCont release];
@@ -44,7 +44,7 @@
 }
 
 - (IBAction)toggleShowHideSlider:(id)sender {
-	NSLog(@"HelloPolyNGAppDelegate toggleShowHideSlider:");
+	NSLog(@"HelloPolyAppDelegate toggleShowHideSlider:");
 	
 	NSMenuItem *mItem = (NSMenuItem *)sender;
 	
