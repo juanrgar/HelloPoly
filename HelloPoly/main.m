@@ -1,14 +1,14 @@
 //
 //  main.m
-//  HelloPoly
+//  HelloPolyNG
 //
-//  Created by Juan Rafael García Blanco on 12/18/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Juan Rafael Garcia Blanco on 8/11/10.
+//  Copyright 2010 UPM. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
 
 int main(int argc, char *argv[])
 {
-    return NSApplicationMain(argc, (const char **)argv);
+    return NSApplicationMain(argc,  (const char **) argv);
 }
